@@ -29,3 +29,10 @@ The SQL Query Optimization Tool is a Python-based application designed to analyz
 - The tool connects to the specified SQLite database.
 - Executes the provided SQL query.
 - Analyzes the executed query using basic syntactic analysis.
+
+# Setting Up the Demo Database
+1. A sample SQL script (`demo_database.sql`) is provided to create a demo database for testing.
+2. Run the SQL script in your SQLite environment to set up the demo database with sample tables and data.
+```sql
+-- Execute this in your SQLite environment
+.read demo_database.sql
